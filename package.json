@@ -1,0 +1,33 @@
+{
+  "name": "angular-requirejs",
+  "version": "0.0.0",
+  "description": "basic requirejs setup for angular",
+  "main": "app/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jbolila",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "angular-mocks": ">=1.2.19",
+    "browser-sync": ">=1.2.1",
+    "eslint": ">=0.6.2",
+    "gulp": ">=3.8.5",
+    "gulp-eslint": ">=0.1.7",
+    "gulp-ignore": "^1.1.0",
+    "gulp-less": ">=1.3.1",
+    "gulp-minify-css": ">=0.3.6",
+    "gulp-notify": ">=1.4.0",
+    "gulp-rename": ">=1.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglify": ">=0.3.1",
+    "karma": ">=0.12.17",
+    "karma-firefox-launcher": ">=0.1.3",
+    "karma-jasmine": ">=0.1.5",
+    "karma-requirejs": ">=0.2.2",
+    "lodash": ">=2.4.1",
+    "path": ">=0.4.9",
+    "requirejs": ">=2.1.14"
+  }
+}

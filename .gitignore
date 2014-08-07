@@ -1,0 +1,5 @@
+.DS_Store?
+._*
+dist
+www/lib
+node_modules

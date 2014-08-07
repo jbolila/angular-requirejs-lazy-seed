@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div ng-include="'views/common/header.html'"></div>
+
+  <div class="container">
+    <noscript>
+      <style>
+        .noscript {
+          display: none;
+        }
+      </style>
+      <div class="alert alert-danger">
+        <b>Sorry!</b> This site requires JavaScript. Please enable it in your browser.
+      </div>
+    </noscript>
+    <div class="noscript" ui-view></div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted pull-left">footer..</p>
+    </div>
+  </div>
+
+  <!--[if lt IE 9]>
+    <script src="lib/es5-shim/es5-shim.min.js"></script>
+    <script src="lib/json3/lib/json3.min.js"></script>
+  <![endif]-->
+
+  <script src="lib/requirejs/require.js" data-main="js/boot"></script>
+</body>
+
+</html>
